@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DesignPatternsExamples.FactoryMethod;
+using System;
 
 namespace DesignPatternsConsole
 {
@@ -6,7 +7,7 @@ namespace DesignPatternsConsole
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            new Client().Main();
         }
     }
 }

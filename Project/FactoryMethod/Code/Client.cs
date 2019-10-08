@@ -15,6 +15,9 @@ namespace DesignPatternsExamples.FactoryMethod
 
             Console.WriteLine("App: Launched with the Ship.");
             ClientCode(new ConcreteCreatorShip());
+
+            Console.WriteLine("Press any button to close");
+            Console.ReadLine();
         }
 
         // The client code works with an instance of a concrete creator, albeit

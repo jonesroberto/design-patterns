@@ -11,7 +11,7 @@ namespace DesignPatternsExamples.FactoryMethod
         public string Deliver()
         {
             var product = FactoryMethod();
-            var result = "Creator: Método básico de criação "
+            var result = "Creator: Basic Method Creator"
                 + product.Deliver();
 
             return result;
