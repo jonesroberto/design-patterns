@@ -9,12 +9,12 @@ namespace DesignPatternsExamples.FactoryMethod
         public void Main()
         {
             Console.WriteLine("App: Launched with the Truck.");
-            ClientCode(new ConcreteCreatorTruck());
+            ClientCode(new RoadLogistics());
 
             Console.WriteLine("");
 
             Console.WriteLine("App: Launched with the Ship.");
-            ClientCode(new ConcreteCreatorShip());
+            ClientCode(new SeaLogistics());
 
             Console.WriteLine("Press any button to close");
             Console.ReadLine();

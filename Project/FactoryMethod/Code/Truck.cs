@@ -4,11 +4,12 @@ using System.Text;
 
 namespace DesignPatternsExamples.FactoryMethod
 {
-    public class ConcreteCreatorTruck : Creator
+    public class Truck : ITransport
     {
-        public override ITransport FactoryMethod()
+        public string Deliver()
         {
-            return new ConcreteTruck();
+            return "{Result of Deliver Truck}";
         }
     }
 }
+
