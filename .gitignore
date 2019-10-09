@@ -17,3 +17,5 @@
 /Project/.vs/Design-Patterns
 /.vs
 /Project/FactoryMethod/bin/Debug/netcoreapp3.0
+/Project/AbstractFactoryConsole
+/Project/DependencyValidation
