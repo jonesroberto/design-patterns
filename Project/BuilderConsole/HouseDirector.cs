@@ -22,10 +22,10 @@ namespace BuilderConsole
         public void BuildHouseFull()
         {
             _houseBuilder.BuildDoors();
-            _houseBuilder.BuildGarage();
             _houseBuilder.BuildRoof();
             _houseBuilder.BuildWalls();
             _houseBuilder.BuildWindows();
+            _houseBuilder.BuildGarage();
         }
     }
 }
