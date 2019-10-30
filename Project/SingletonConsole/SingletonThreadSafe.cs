@@ -12,14 +12,10 @@ namespace SingletonConsole
 
         private static SingletonThreadSafe _instance;
 
-        // We now have a lock object that will be used to synchronize threads
-        // during first access to the Singleton.
         private static readonly object _lock = new object();
 
         public static SingletonThreadSafe GetInstance(string value)
         {
-            // This conditional is needed to prevent threads stumbling over the
-            // lock once the instance is ready.
             if (_instance == null)
             {
                 lock (_lock)
