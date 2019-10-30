@@ -1,0 +1,11 @@
+C:\Users\U001132\Source\Repos\design-patterns\Project\BuilderConsole\bin\Debug\netcoreapp3.0\BuilderConsole.exe
+C:\Users\U001132\Source\Repos\design-patterns\Project\BuilderConsole\bin\Debug\netcoreapp3.0\BuilderConsole.deps.json
+C:\Users\U001132\Source\Repos\design-patterns\Project\BuilderConsole\bin\Debug\netcoreapp3.0\BuilderConsole.runtimeconfig.json
+C:\Users\U001132\Source\Repos\design-patterns\Project\BuilderConsole\bin\Debug\netcoreapp3.0\BuilderConsole.runtimeconfig.dev.json
+C:\Users\U001132\Source\Repos\design-patterns\Project\BuilderConsole\bin\Debug\netcoreapp3.0\BuilderConsole.dll
+C:\Users\U001132\Source\Repos\design-patterns\Project\BuilderConsole\bin\Debug\netcoreapp3.0\BuilderConsole.pdb
+C:\Users\U001132\Source\Repos\design-patterns\Project\BuilderConsole\obj\Debug\netcoreapp3.0\BuilderConsole.csprojAssemblyReference.cache
+C:\Users\U001132\Source\Repos\design-patterns\Project\BuilderConsole\obj\Debug\netcoreapp3.0\BuilderConsole.AssemblyInfoInputs.cache
+C:\Users\U001132\Source\Repos\design-patterns\Project\BuilderConsole\obj\Debug\netcoreapp3.0\BuilderConsole.AssemblyInfo.cs
+C:\Users\U001132\Source\Repos\design-patterns\Project\BuilderConsole\obj\Debug\netcoreapp3.0\BuilderConsole.dll
+C:\Users\U001132\Source\Repos\design-patterns\Project\BuilderConsole\obj\Debug\netcoreapp3.0\BuilderConsole.pdb
