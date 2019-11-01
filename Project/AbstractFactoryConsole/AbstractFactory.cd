@@ -1,33 +1,94 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="AbstractFactoryConsole.ConcreteFactory.HondaFactory">
-    <Position X="3.75" Y="2.75" Width="1.5" />
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access" MembersFormat="FullSignature">
+  <Class Name="AbstractFactoryConsole.ConcreteFactory.HondaFactory" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="4" Width="2.75" />
     <TypeIdentifier>
       <HashCode>AAAABAAAAAAAQAAAAAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
       <FileName>ConcreteFactory\HondaFactory.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.1" />
   </Class>
-  <Class Name="AbstractFactoryConsole.ConcreteFactory.SuzukiFactory">
-    <Position X="1.25" Y="2.75" Width="1.5" />
+  <Class Name="AbstractFactoryConsole.ConcreteFactory.SuzukiFactory" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="2.25" Width="2.75" />
     <TypeIdentifier>
       <HashCode>AAAABAAAAAAAQAAAAAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
       <FileName>ConcreteFactory\SuzukiFactory.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
+  <Class Name="AbstractFactoryConsole.ConcreteProduct.RegularBike" BaseTypeListCollapsed="true">
+    <Position X="3.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ConcreteProduct\RegularBike.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AbstractFactoryConsole.ConcreteProduct.RegularScooter" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ConcreteProduct\RegularScooter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AbstractFactoryConsole.ConcreteProduct.Scooty" BaseTypeListCollapsed="true">
+    <Position X="1.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ConcreteProduct\Scooty.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AbstractFactoryConsole.ConcreteProduct.SportsBike" BaseTypeListCollapsed="true">
+    <Position X="4" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ConcreteProduct\SportsBike.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AbstractFactoryConsole.ConcreteProduct.SportsCar" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ConcreteProduct\SportsCar.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AbstractFactoryConsole.Client.VehicleClient">
+    <Position X="8.75" Y="0.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAADAAAAEAAAAAAACAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Client\VehicleClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
   <Interface Name="AbstractFactoryConsole.VehicleFactory">
-    <Position X="2.75" Y="0.5" Width="1.5" />
+    <Position X="5.75" Y="0.5" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAABAAAAAAAQAAAAAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
       <FileName>AbstractFactory\VehicleFactory.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="AbstractFactoryConsole.AbstractProduct.Bike">
-    <Position X="0.5" Y="0.75" Width="1.5" />
+    <Position X="2.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>AbstractProduct\Bike.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="AbstractFactoryConsole.AbstractProduct.Car">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AbstractProduct\Car.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="AbstractFactoryConsole.AbstractProduct.Scooter">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AbstractProduct\Scooter.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Font Name="Segoe UI" Size="9" />
