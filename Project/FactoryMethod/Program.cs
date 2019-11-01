@@ -1,4 +1,6 @@
-﻿using DesignPatternsExamples.FactoryMethod;
+﻿using FactoryMethodConsole;
+using FactoryMethodConsole.ConcreateCreator;
+using FactoryMethodConsole.Creator;
 using System;
 
 namespace DesignPatternsConsole
@@ -7,7 +9,15 @@ namespace DesignPatternsConsole
     {
         static void Main(string[] args)
         {
-            new Client().Main();
+            VehicleFactory factory = new ConcreteVehicleFactory();
+
+            IFactory scooter = factory.GetVehicle("Scooter");
+            scooter.Drive(10);
+
+            IFactory bike = factory.GetVehicle("Bike");
+            bike.Drive(20);
+
+            Console.ReadKey();
         }
     }
 }

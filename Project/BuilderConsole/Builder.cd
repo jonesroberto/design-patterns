@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BuilderConsole.FerrariBuilder">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAACAAAAAAAAAAgAAgAAAAAJAAAQAAAAAAAAAA=</HashCode>
+      <FileName>ConcreteBuilder\FerrariBuilder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BuilderConsole.HondaBuilder">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAACAAAAAAAAAAgAAgAAAAAJAAAQAAAAAAAAAA=</HashCode>
+      <FileName>ConcreteBuilder\HondaBuilder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BuilderConsole.VehicleCreator">
+    <Position X="1.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAABAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Director\VehicleCreator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BuilderConsole.Vehicle">
+    <Position X="3.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABIABAAAAAAAAAAAABAgAAAAAgAA=</HashCode>
+      <FileName>Product\Vehicle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="BuilderConsole.Interfaces.IVehicleBuilder">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAACAAAAAAAAAAAAAgAAAAAJAAAQAAAAAAAAAA=</HashCode>
+      <FileName>BuilderInterface\IVehicleBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
