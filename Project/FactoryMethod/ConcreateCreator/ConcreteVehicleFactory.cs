@@ -1,8 +1,6 @@
 ﻿using FactoryMethodConsole.ConcreateProduct;
 using FactoryMethodConsole.Creator;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace FactoryMethodConsole.ConcreateCreator
 {
@@ -20,6 +18,5 @@ namespace FactoryMethodConsole.ConcreateCreator
                     throw new ApplicationException($"Vehicle {Vehicle} cannot be created");
             }
         }
-
     }
 }
