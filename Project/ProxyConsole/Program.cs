@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProxyConsole.Proxy;
+using System;
 
 namespace ProxyConsole
 {
@@ -6,7 +7,11 @@ namespace ProxyConsole
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var proxy = new ProxyClient();
+            Console.WriteLine($"Data from Proxy Client = {proxy.GetData()}");
+
+            Console.WriteLine("Press any key to close!");
+            Console.ReadKey();
         }
     }
 }
