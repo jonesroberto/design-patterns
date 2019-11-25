@@ -8,34 +8,32 @@
     ".NETCoreApp,Version=v3.0": []
   },
   "packageFolders": {
-    "C:\\Users\\U001132\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\jones\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\U001132\\Source\\Repos\\design-patterns\\Project\\PrototypeConsole\\PrototypeConsole.csproj",
+      "projectUniqueName": "C:\\GIT\\design-patterns\\Project\\PrototypeConsole\\PrototypeConsole.csproj",
       "projectName": "PrototypeConsole",
-      "projectPath": "C:\\Users\\U001132\\Source\\Repos\\design-patterns\\Project\\PrototypeConsole\\PrototypeConsole.csproj",
-      "packagesPath": "C:\\Users\\U001132\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\U001132\\Source\\Repos\\design-patterns\\Project\\PrototypeConsole\\obj\\",
+      "projectPath": "C:\\GIT\\design-patterns\\Project\\PrototypeConsole\\PrototypeConsole.csproj",
+      "packagesPath": "C:\\Users\\jones\\.nuget\\packages\\",
+      "outputPath": "C:\\GIT\\design-patterns\\Project\\PrototypeConsole\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\U001132\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jones\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.0"
       ],
       "sources": {
-        "C:\\Nuget": {},
+        "C:\\GIT\\Corporate.EventBus\\src\\Corporate.EventBus.RabbitMQ\\bin\\Debug": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
-        "C:\\Users\\U001132\\AppData\\Roaming\\SAK\\Nuget": {},
         "https://api.nuget.org/v3/index.json": {},
         "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/nuget/v3/index.json": {}
       },
