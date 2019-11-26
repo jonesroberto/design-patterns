@@ -6,7 +6,9 @@ namespace StateConsole
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var context = new Context(new ConcreteStateA());
+            context.Request1();
+            context.Request2();
         }
     }
 }
