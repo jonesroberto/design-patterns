@@ -19,19 +19,20 @@ namespace CommandConsole
 
             Switch s = new Switch();
 
-            if (cmd == "ON")
+            switch (cmd)
             {
-                s.StoreAndExecute(switchUp);
-            }
-            else if (cmd == "OFF")
-            {
-                s.StoreAndExecute(switchDown);
-            }
-            else
-            {
-                Console.WriteLine("Command \"ON\" or \"OFF\" is required.");
+                default:
+                    Console.WriteLine("Command \"ON\" or \"OFF\" is required.");
+                    break;
+                case "ON":
+                    s.StoreAndExecute(switchUp);
+                    break;
+                case "OFF":
+                    s.StoreAndExecute(switchDown);
+                    break;
             }
 
+            Console.WriteLine("Press any key to exit!");
             Console.ReadKey();
         }
     }
