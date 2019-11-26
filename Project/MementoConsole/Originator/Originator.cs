@@ -12,7 +12,7 @@ namespace MementoConsole
         public Originator(string state)
         {
             this._state = state;
-            Console.WriteLine("Originator: My initial state is: " + state);
+            Console.WriteLine($"Originator: My initial state is: {state}");
         }
 
         public void DoSomething()
@@ -50,7 +50,7 @@ namespace MementoConsole
         {
             if (!(memento is ConcreteMemento))
             {
-                throw new Exception("Unknown memento class " + memento.ToString());
+                throw new Exception($"Unknown memento class {memento}");
             }
 
             this._state = memento.GetState();

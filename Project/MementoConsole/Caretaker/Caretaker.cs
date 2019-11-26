@@ -32,7 +32,7 @@ namespace MementoConsole
             var memento = this._mementos.Last();
             this._mementos.Remove(memento);
 
-            Console.WriteLine("Caretaker: Restoring state to: " + memento.GetName());
+            Console.WriteLine($"Caretaker: Restoring state to: {memento.GetName()}");
 
             try
             {
