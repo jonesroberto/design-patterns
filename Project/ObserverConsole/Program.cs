@@ -20,6 +20,9 @@ namespace ObserverConsole
             subject.Detach(observerB);
 
             subject.SomeBusinessLogic();
+
+            Console.WriteLine("Press any key to continue!");
+            Console.ReadKey();
         }
     }
 }

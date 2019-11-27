@@ -28,7 +28,8 @@ namespace MementoConsole
             Console.WriteLine("\n\nClient: Once more!\n");
             caretaker.Undo();
 
-            Console.WriteLine();
+            Console.WriteLine("Press any key to continue!");
+            Console.ReadKey();
         }
     }
 }
