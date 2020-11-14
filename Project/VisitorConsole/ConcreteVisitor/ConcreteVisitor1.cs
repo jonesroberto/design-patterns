@@ -11,9 +11,9 @@ namespace VisitorConsole
             Console.WriteLine($"{element.ExclusiveMethodOfConcreteElementA()} ConcreteVisitor1");
         }
 
-    public void VisitConcreteElementB(ConcreteElementB element)
-    {
-        Console.WriteLine($"{element.SpecialMethodOfConcreteElementB()} ConcreteVisitor1");
+        public void VisitConcreteElementB(ConcreteElementB element)
+        {
+            Console.WriteLine($"{element.SpecialMethodOfConcreteElementB()} ConcreteVisitor1");
         }
     }
 }

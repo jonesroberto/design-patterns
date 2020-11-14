@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GIT\\design-patterns\\Project\\PrototypeConsole\\PrototypeConsole.csproj",
+      "projectUniqueName": "C:\\Git\\design-patterns\\Project\\PrototypeConsole\\PrototypeConsole.csproj",
       "projectName": "PrototypeConsole",
-      "projectPath": "C:\\GIT\\design-patterns\\Project\\PrototypeConsole\\PrototypeConsole.csproj",
+      "projectPath": "C:\\Git\\design-patterns\\Project\\PrototypeConsole\\PrototypeConsole.csproj",
       "packagesPath": "C:\\Users\\jones\\.nuget\\packages\\",
-      "outputPath": "C:\\GIT\\design-patterns\\Project\\PrototypeConsole\\obj\\",
+      "outputPath": "C:\\Git\\design-patterns\\Project\\PrototypeConsole\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -32,13 +32,12 @@
         "netcoreapp3.0"
       ],
       "sources": {
-        "C:\\GIT\\Corporate.EventBus\\src\\Corporate.EventBus.RabbitMQ\\bin\\Debug": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/nuget/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "targetAlias": "netcoreapp3.0",
           "projectReferences": {}
         }
       },
@@ -50,6 +49,7 @@
     },
     "frameworks": {
       "netcoreapp3.0": {
+        "targetAlias": "netcoreapp3.0",
         "imports": [
           "net461",
           "net462",
@@ -60,12 +60,30 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.0.1, 3.0.1]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.0.3, 3.0.3]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[3.0.0, 3.0.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[3.0.0, 3.0.0]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

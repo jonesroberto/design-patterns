@@ -8,39 +8,36 @@
     ".NETCoreApp,Version=v3.0": []
   },
   "packageFolders": {
-    "C:\\Users\\U001132\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\jones\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\U001132\\Source\\Repos\\design-patterns\\Project\\BuilderConsole\\BuilderConsole.csproj",
+      "projectUniqueName": "C:\\Git\\design-patterns\\Project\\BuilderConsole\\BuilderConsole.csproj",
       "projectName": "BuilderConsole",
-      "projectPath": "C:\\Users\\U001132\\Source\\Repos\\design-patterns\\Project\\BuilderConsole\\BuilderConsole.csproj",
-      "packagesPath": "C:\\Users\\U001132\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\U001132\\Source\\Repos\\design-patterns\\Project\\BuilderConsole\\obj\\",
+      "projectPath": "C:\\Git\\design-patterns\\Project\\BuilderConsole\\BuilderConsole.csproj",
+      "packagesPath": "C:\\Users\\jones\\.nuget\\packages\\",
+      "outputPath": "C:\\Git\\design-patterns\\Project\\BuilderConsole\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\U001132\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jones\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.0"
       ],
       "sources": {
-        "C:\\Nuget": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
-        "C:\\Users\\U001132\\AppData\\Roaming\\SAK\\Nuget": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/nuget/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "targetAlias": "netcoreapp3.0",
           "projectReferences": {}
         }
       },
@@ -52,6 +49,7 @@
     },
     "frameworks": {
       "netcoreapp3.0": {
+        "targetAlias": "netcoreapp3.0",
         "imports": [
           "net461",
           "net462",
@@ -62,12 +60,30 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.0.1, 3.0.1]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.0.3, 3.0.3]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[3.0.0, 3.0.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[3.0.0, 3.0.0]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
